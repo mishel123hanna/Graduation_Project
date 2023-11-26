@@ -1,5 +1,5 @@
-from .views import CustomUserCreateView
+# from .views import CustomUserCreateView
 from django.urls import path
 urlpatterns = [
-    path('', CustomUserCreateView.as_view) 
+    # path('', CustomUserCreateView.as_view) 
 ]
