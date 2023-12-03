@@ -163,7 +163,7 @@ class SendEmailResetSerializer(serializers.Serializer, UserFunctionsMixin):
         self.email_field = get_user_email_field_name(User)
         self.fields[self.email_field] = serializers.EmailField()
 
-
+    
 class UidAndTokenSerializer(serializers.Serializer):
     uid = serializers.CharField()
     token = serializers.CharField()

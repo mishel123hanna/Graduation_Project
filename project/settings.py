@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "djoser",
     # apps
     "accounts",
+    "listings",
     
 ]
 
